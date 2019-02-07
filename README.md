@@ -2,7 +2,7 @@
 
 This is generator for an art using emoticons on Steam.
 
-![screenshot](https://github.com/lon9/seag/art/screenshot.png, "screenshot")
+![screenshot](https://github.com/lon9/seag/blob/master/art/screenshot.png?raw=true, "screenshot")
 
 ## Usage
 
