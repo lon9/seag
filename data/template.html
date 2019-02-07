@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Steam Emoticon Art Generator</title>
+        <style type="text/css">
+            body{ background-color: #232427; background-size: cover;}
+            .img.emoticon{vertical-align: text-bottom;}
+            .emoticon-box{line-height: 0%;}
+        </style>
+    </head>
+    <body>
+        <div class="emoticon-box">
+        {{ range . }}{{ range . }}<img class="emoticon" src="{{ .GetImageURL }}">{{ end }}<br>{{ end }}
+        </div>
+    </body>
+</html>
